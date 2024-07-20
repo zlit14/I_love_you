@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const countdown = () => {
         const now = new Date().getTime();
-        const eventDate = new Date('2024-07-15T00:00:00').getTime();
+        const eventDate = new Date('2024-08-24T11:45:00').getTime();
         const currentTime = eventDate - now;
 
         const seconds = Math.floor((currentTime / 1000) % 60);
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // script.js
 
 function updateCountdown() {
-    const targetDate = new Date('2024-07-20T23:45:00');
+    const targetDate = new Date('2024-08-20T23:45:00');
     const now = new Date();
     const totalDuration = targetDate - now;
 
@@ -39,7 +39,7 @@ function updateCountdown() {
 
     // Calculate the percentage of time passed
     const startTime = new Date('2024-07-20T23:45:00');
-    const endTime = new Date('2024-07-21T23:45:00');
+    const endTime = new Date('2024-08-24T11:45:00');
     const totalTime = endTime - startTime;
     const elapsedTime = now - startTime;
     const percentage = (elapsedTime / totalTime) * 100;
